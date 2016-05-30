@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*清除浮动*/
+.clearfix:after{content: "";display: block;clear: both;}
+.clearfix{zoom:1;}
+a{text-decoration: none;}
+input,select,textarea{outline:none;border: none; background:none;}  /*清理搜索按钮边框*/
+input,select,textarea{ background:none;} /*兼容IE6*/
+li{
+	list-style-type: none;
+}
+
+.fl{float: left;}
+.fr{float: right;}
+
+/*div 里的宽高是对div里的内容来说 当有外包盒子和padding时候 宽要减去padding宽*/
+
