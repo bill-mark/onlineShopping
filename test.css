@@ -1,0 +1,334 @@
+/*清除样式*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+/*清除浮动*/
+.clearfix:after{content: "";display: block;clear: both;}
+.clearfix{zoom:1;}
+/*清除浮动*/
+.comWidth{width:1200px; margin-left:auto; margin-right:auto;}
+/*IE盒子*/
+*{
+box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+}
+/*顶部上区域*/
+.top{
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.top-left{
+      padding-top: 5px;
+      float: left;
+      color: #666666;
+}
+.top-left a{
+  color: black;
+}
+  .top-left a:hover{
+       color:#c81623;
+  }
+.top-right{
+    float: right;
+    padding-top: 5px;
+}
+  .top-right a:hover{
+    color:#c81623;
+  }
+
+/*顶部中区域*/
+.top-zhong{
+    height: 100px; 
+}
+.log{
+   padding-top: 25px;
+   padding-left: 100px;
+   float: left;
+}
+.log a{
+  font-size: 30px;
+}  
+.log a:hover{
+  color: red;
+} 
+.search{
+   padding-top: 25px;
+   padding-left: 365px;
+}
+.search-left{
+  width: 450px;
+  height: 35px;
+  float: left;  
+}
+.search-right{
+  color: white;
+  background-color: #e4393c;
+  border:0;
+  width: 70px;
+  height: 35px;
+  float: left;
+}
+.shopcar{
+    width: 140px;  
+    height: 35px;
+    border:1px solid #f9f9f9;
+    float: right;
+    position: relative;
+    padding-left: 30px; 
+    background-color: #f9f9f9;
+}
+.shopcar a{
+  color: black;
+}
+.shopcar a:hover{
+  color: red;
+}
+.shopcar-left{
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 18px;
+  height: 16px;
+  background:url(images/购物车.png)1px -58px no-repeat;
+  overflow: hidden;
+}
+.shopcar-right{
+  line-height: 35px;
+  width: 90px;
+  position: absolute;
+}
+
+/*菜单区*/
+.caidan{
+  height: 44px;
+}
+
+.caidan-left{
+  float: left;
+  width: 230px;
+  height: 44px;
+}
+.nav-ul{
+  background-color: #c81623;
+  display: block;
+  float: left;
+  width: 230px;
+  height: 470px;
+  border:1px solid #B1191A; 
+  position: relative;           
+}
+.nav-ul-top{
+  height: 42px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #B1191A;
+  padding-left: 20px;
+}
+.nav-ul li{
+  padding-left: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+.jian-tou{
+  float: right;
+  color: white;
+  padding-right: 5px;
+}
+.nav-ul li a{
+  color: white;
+}
+.nav-ul .lihover{    /*鼠标移动到上面时，应用的样式*/
+  box-shadow: 0 0 4px #DDD;
+  background-color: rgb(247,247,247);
+  height: 40px;
+  border-left:4px solid #e4393c;   
+}
+.nav-ul .lihover a{
+  color: red;
+}
+.nav-ul .lihover .submenu{
+  display: block;
+}
+.nav-ul .lihover{
+  border:1px solid #ddd;
+}
+.submenu{
+  display:none;
+  width: 701px;
+  height: 427px;
+  left: 228px;
+  position: absolute; /*以包含块为参考*/
+  top: 42px;
+  border: 1px solid black;
+  z-index: 10;
+  background-color: rgb(247,247,247);
+}
+.submenu-left{
+  float: left;
+}
+.submenu-left dl{
+  display: block;
+  padding-top: 5px;
+  overflow: hidden;
+}
+.submenu-left dl dt{
+  display: block;
+  float: left;
+}
+.submenu-left dl dt a{
+  font-size: 14px;
+}
+.submenu-left dl dd{
+  padding-top: 9px;
+  padding-left: 5px;
+  padding-bottom: 8px;
+  display: block;
+  float: left;
+  border-bottom:solid 1px rgb(238,238,238);
+}
+.submenu-left dl dd a{
+  display: block;
+  float: left;
+  border-left: 1px solid #ccc;
+  padding: 0 8px;
+  height: 14px;
+  line-height: 14px;
+}
+.nav-ul .lihover .submenu-left dl dt a{
+  color: black;
+  padding-left: 20px;
+  float: left;
+}
+.nav-ul .lihover .submenu-left dl dd a{
+  font-size: 12px;
+  color: black;
+}
+.nav-ul .lihover .submenu-left dl a:hover{
+  color: red;
+}
+
+.caidan-mind
+{
+  border-bottom:2px solid #B1191A;
+  float: left;
+  width: 665px;
+  height: 44px;
+}
+.caidan-mind-ul{
+  float: left;
+}
+.caidan-mind-ul li{
+  width: 75px;
+  float: left;
+  padding-left: 20px;
+}
+.caidan-mind-ul li a{
+  line-height: 44px;
+  font-size: 16px;
+}
+.caidan-mind-ul li a:hover{
+  color: #e4393c;
+}
+
+
+.caidan-right{
+
+}
+.tupian{
+  position: relative;  /*给ad提供定位*/
+
+}
+.ad{
+  left:320px;
+  top: 10px;
+  width: 664px;
+  height: 414px;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+.content{
+  position: relative;
+  top: 450px;
+}
+.content-biaoti{
+  position: absolute;
+  width: 400px;
+  /*border:2px solid black;*/
+}
+.biaoti-left{
+  width: 44px;
+  height: 44px;
+  float: left;
+  background: url("images/家用电脑标题.png") 0% 0% no-repeat;
+}
+.content-biaoti h3{
+  font-size: 24px;
+  float: left;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.content-list{
+  position: absolute;
+  top: 55px;
+  height: 340px;
+  border:1px solid #ddd;
+}
+.shop-item{
+  display: block;
+}
+.item-li{
+  width: 235px;
+  float: left;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+.p-img{
+  padding-top: 10px;
+}
+.p-name{
+  padding-top: 15px;
+}
+.p-name a:hover{
+  color: red;
+}
+.p-price{
+  padding-top: 10px;
+}
+
+
+.footer-wrap{
+  position: relative;
+  top: 830px;
+  
+}
+.footer{
+  margin-top: 25px;
+  text-align: center;
+  background-color: #d4d4d4;
+  line-height: 24px;
+  padding: 50px 0;
+}
+.footer p a{
+  color: black;
+}
+.footer p a:hover{
+  color: red;
+}
+.web img{
+  margin: 0 15px;
+}
